@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+        var space="&nbsp;&nbsp";
+        for(var i=1;i<=9;i++){
+            for(var k=i;k<=9;k++){
+                var sp;
+                if(i*k<10){
+                    sp=space+space+space;
+                }else{
+                    sp=space+space;
+                }
+                document.writeln(i+"*"+k+"="+(i*k)+sp)
+            }
+            document.write("<br/>")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
